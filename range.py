@@ -20,3 +20,10 @@ for n in x:
 x = range(3, 20, 2)
 for n in x:
   print(n)
+
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+print(thisdict)
