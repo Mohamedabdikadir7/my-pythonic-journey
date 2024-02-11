@@ -25,3 +25,12 @@ i = 1
 while i < 5:
   print(i)
   i += 1
+
+  i = 0
+i += 1  # Increment i by 1
+print(i)  # Output will be 1
+
+count = 1
+while count <= 5:
+    print(count)
+    count += 1
