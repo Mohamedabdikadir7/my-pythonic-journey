@@ -57,3 +57,17 @@ while True:
     if num > 5:
         break  # Break the loop when num is greater than 5
 
+# Example: Using loops
+# Looping through a list of numbers
+numbers = [1, 2, 3, 4, 5]
+print("Numbers:")
+for num in numbers:
+    print(num)
+
+
+
+# Nested loops
+print("Nested Loop:")
+for i in range(3):
+    for j in range(2):
+        print(f"({i}, {j})")
