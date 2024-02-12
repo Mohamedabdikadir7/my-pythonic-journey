@@ -34,3 +34,26 @@ count = 1
 while count <= 5:
     print(count)
     count += 1
+
+# Example 1: Basic while loop
+count = 0
+while count < 5:
+    print(count, end=" ")  # Output: 0 1 2 3 4
+    count += 1
+print()  # Print a newline
+
+# Example 2: Using a while loop with a condition
+number = 10
+while number > 0:
+    print(number, end=" ")
+    number -= 2  # Decrement by 2
+print()  # Print a newline
+
+# Example 3: Using a while loop with a break statement
+num = 1
+while True:
+    print(num, end=" ")
+    num += 1
+    if num > 5:
+        break  # Break the loop when num is greater than 5
+

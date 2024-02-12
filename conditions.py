@@ -86,3 +86,20 @@ discounted_amount = total_purchase_amount - discount
 print("Total Purchase Amount: ${:.2f}".format(total_purchase_amount))
 print("Discount Applied: ${:.2f}".format(discount))
 print("Discounted Amount: ${:.2f}".format(discounted_amount))
+
+
+# Example 1: Simple if-else statement
+x = 10
+if x > 0:
+    print("x is positive")
+else:
+    print("x is non-positive")
+
+# Example 2: Nested if-else statement
+num = -5
+if num > 0:
+    print("Number is positive")
+elif num == 0:
+    print("Number is zero")
+else:
+    print("Number is negative")
