@@ -51,3 +51,27 @@ if value in my_range_2:
     print(f"{value} is in the range.")
 else:
     print(f"{value} is not in the range.")
+
+# Example 1: Creating a range
+my_range = range(5)
+print("Range:", my_range)  # Output: range(0, 5)
+
+# Example 2: Iterating through a range
+for num in my_range:
+    print(num, end=" ")  # Output: 0 1 2 3 4
+print()  # Print a newline
+
+# Example 3: Creating a range with start and stop values
+my_range_2 = range(2, 10)
+print("Range with start and stop values:", my_range_2)  # Output: range(2, 10)
+
+# Example 4: Creating a range with step value
+my_range_3 = range(1, 10, 2)
+print("Range with step value:", my_range_3)  # Output: range(1, 10, 2)
+
+# Example 5: Checking if a value is in a range
+value = 6
+if value in my_range_2:
+    print(f"{value} is in the range.")
+else:
+    print(f"{value} is not in the range.")
