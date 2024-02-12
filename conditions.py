@@ -103,3 +103,11 @@ elif num == 0:
     print("Number is zero")
 else:
     print("Number is negative")
+
+# Example: If-Else Inside Loop
+numbers = (5, 10, 15, 20)
+for num in numbers:
+    if num % 2 == 0:
+        print(num, "is even")
+    else:
+        print(num, "is odd")
